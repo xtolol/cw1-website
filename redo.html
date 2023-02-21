@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
 </head>
 
 <body>
@@ -16,11 +18,11 @@
             <a href="redo.html"><img src="rezervet.png"></a>
             <div class="links-nav">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">NEWS</a></li>
+                    <li><a href="redo.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="news.html">NEWS</a></li>
                 </ul>
             </div>
         </nav>
@@ -88,11 +90,64 @@
                 opportunities to elevate your local service experience.
             </p>
         </div>
-        <div class="form">
-            <h2>Sig</h2>
+        <div class="newsform">
+            <form action="/action_page.php">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
+    <section class="quick-links">
+        <h2>Quick Links</h2>
+        <div class="row1">
+            <div class="links-col">
+                <h3>About Us</h3>
+                <p>Learn the people behind this ambitious project and what we are as a business, as well as how it all
+                    started.
+                </p>
+                <div class="button-set">
+                    <a href="about.html">
+                        <h3>Know More</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="links-col">
+                <h3>News</h3>
+                <p>Want to get in the loop of our progress? In addition to our newsletter, our corporate news, press
+                    releases, and media kits can all be found here.</p>
+                <div class="button-set">
+                    <a href=news.html>
+                        <h3>Know More</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="links-col">
+                <h3>Services</h3>
+                <p>Find out the solutions we have to offer regarding reservation and booking. More products will be
+                    added in the future. </p>
+                <div class="button-set">
+                    <a href="services.html">
+                        <h3>Know More</h3>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer">
+        <h4>Connect With Us</h4>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
 
 </body>
 
